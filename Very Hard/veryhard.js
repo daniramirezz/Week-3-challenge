@@ -1,5 +1,5 @@
-function calc(){
-    var operator = prompt("Enter an operator (either +, -, *, /)");
+function calculator(){
+    var operator = prompt("Enter a sign (either +, -, *, /)");
  
     if (operator = "+" ){
         var num1 = parseInt(prompt("Enter number: "));
@@ -25,11 +25,11 @@ function calc(){
         var div1 = parseInt (prompt("Enter number: ") );
         var div2 = parseInt (prompt ("Enter another number: ")) ;
         quo = div1 / div2;
-        console.log(`${div1}/${div2} = ${quo}`);
+        console.log(`${div1}/${div2} = ${res}`);
     }
 
     else{
         console.log ("Please make sure the operator is one of the following, +, -, *, or /");
     }
 }    
-    calc();
+    calculator();
